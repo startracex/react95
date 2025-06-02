@@ -3,6 +3,54 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.3.1](https://github.com/React95/React95/compare/@react95/core@9.3.0...@react95/core@9.3.1) (2025-06-01)
+
+
+### Bug Fixes
+
+* correct types path for contract in package.json ([52ab0f3](https://github.com/React95/React95/commit/52ab0f3523ab90ee52b71a88d046104a4bdf497a))
+
+
+
+
+
+# [9.3.0](https://github.com/React95/React95/compare/@react95/core@9.2.2...@react95/core@9.3.0) (2025-05-31)
+
+
+### Bug Fixes
+
+* add Avatar component support in package.json ([e9124f6](https://github.com/React95/React95/commit/e9124f6309db3d0374c13c73598001dc4e1d1851))
+* update icon for shadows in contract stories ([48da35b](https://github.com/React95/React95/commit/48da35b4142ca60b81c3244f7f587abc8dac734e))
+
+
+### Features
+
+* add contract export to package.json ([648794f](https://github.com/React95/React95/commit/648794f46237c4f86034d5a2b9601806b783faf2))
+* add contract import to index.ts ([d09f7b9](https://github.com/React95/React95/commit/d09f7b9d7337cadb41964ea57c48ac469631d96a))
+
+
+
+
+
+## [9.2.2](https://github.com/React95/React95/compare/@react95/core@9.2.1...@react95/core@9.2.2) (2025-05-31)
+
+
+### Bug Fixes
+
+* add className support to Checkbox component ([e5297ba](https://github.com/React95/React95/commit/e5297badef7b1d5b6f325f54e6745a8cd0a0e2e3))
+* add className support to Fieldset component ([2492481](https://github.com/React95/React95/commit/2492481cd50a34ac274101ffe173b0d00178eefe))
+* add className support to Input component ([785491a](https://github.com/React95/React95/commit/785491a0794f9d87c517a6a19c905fbb2f2c9741))
+* add className support to Node and Tree components ([554a248](https://github.com/React95/React95/commit/554a248840ff03970395c33697ddb37f323134ee))
+* add className support to RadioButton component ([8125951](https://github.com/React95/React95/commit/8125951c3a6e426d633a19648297243bf0250ebf))
+* add className support to Tab component ([acf22f8](https://github.com/React95/React95/commit/acf22f828f44fca3f2e03cca90ea7786e7b6731c))
+* add className support to TaskBar component ([01338eb](https://github.com/React95/React95/commit/01338ebe983b006a38b981496301339ca9a15075))
+* add className support to TextArea component ([392be67](https://github.com/React95/React95/commit/392be67c10f56d73c428efa862a4ca03c388d9a5))
+* enhance Avatar component to support additional className prop ([b134075](https://github.com/React95/React95/commit/b134075e9b36d8fcd1b8b0544bc0524e613b6f45))
+
+
+
+
+
 ## [9.2.1](https://github.com/React95/React95/compare/@react95/core@9.2.0...@react95/core@9.2.1) (2024-11-28)
 
 
