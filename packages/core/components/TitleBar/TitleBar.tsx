@@ -4,7 +4,6 @@ import type {
   ElementRef,
   ElementType,
   ForwardedRef,
-  ForwardRefRenderFunction,
   HTMLAttributes,
   ReactElement,
   Ref,
@@ -128,13 +127,18 @@ const Restore = fixedForwardRef<HTMLButtonElement, OptionProps<'button'>>(
   },
 ) as OptionReturnType;
 
-export interface TitleBarBackgroundProps
-  extends Omit<HTMLAttributes<HTMLDivElement>, 'color'>,
-    FrameProps<'div'> {
-  active?: boolean;
-  icon?: ReactElement;
-  title?: string;
-}
+export type TitleBarBackgroundProps<TAs extends ElementType> = Omit<
+  HTMLAttributes<HTMLDivElement>,
+  'color'
+> &
+  FrameProps<TAs> & {
+    active?: boolean;
+    icon?: ReactElement;
+    title?: string;
+  };
+
+export type TitleBarProps<TAs extends ElementType = 'div'> =
+  TitleBarBackgroundProps<TAs>;
 
 interface TitleBarOptions {
   Option: typeof Option;
@@ -146,17 +150,15 @@ interface TitleBarOptions {
   Restore: typeof Restore;
 }
 
-export interface TitleBarProps
-  extends TitleBarBackgroundProps,
-    TitleBarOptions,
-    FrameProps<'div'> {}
-
-const TitleBarRenderer: ForwardRefRenderFunction<
-  HTMLDivElement,
-  TitleBarBackgroundProps
-> = (
-  { children, title = 'UNKNOWN.EXE', icon, active = true, ...rest },
-  ref: Ref<HTMLDivElement>,
+const TitleBarRenderer = <TAs extends ElementType = 'div'>(
+  {
+    children,
+    title = 'UNKNOWN.EXE',
+    icon,
+    active = true,
+    ...rest
+  }: TitleBarBackgroundProps<TAs>,
+  ref: Ref<ElementRef<TAs>>,
 ) => (
   <Frame
     {...rest}
@@ -170,15 +172,18 @@ const TitleBarRenderer: ForwardRefRenderFunction<
   </Frame>
 );
 
-export const TitleBar = Object.assign(
-  fixedForwardRef<HTMLDivElement, TitleBarBackgroundProps>(TitleBarRenderer),
-  {
-    Option,
-    OptionsBox,
-    Help,
-    Close,
-    Maximize,
-    Minimize,
-    Restore,
-  },
-) as TitleBarProps & typeof TitleBarRenderer;
+type TitleBarComponent = <TAs extends ElementType = 'div'>(
+  props: TitleBarProps<TAs> & { ref?: ForwardedRef<ElementRef<TAs>> },
+) => ReactElement;
+
+type TitleBarWithStatics = TitleBarComponent & TitleBarOptions;
+
+export const TitleBar = Object.assign(fixedForwardRef(TitleBarRenderer), {
+  Option,
+  OptionsBox,
+  Help,
+  Close,
+  Maximize,
+  Minimize,
+  Restore,
+}) as TitleBarWithStatics;
