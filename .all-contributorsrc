@@ -439,6 +439,17 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "Jayesh-11",
+      "name": "Jayesh Vyavahare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100110348?v=4",
+      "profile": "https://github.com/Jayesh-11",
+      "contributions": [
+        "userTesting",
+        "bug",
+        "code"
+      ]
     }
   ],
   "skipCi": true,
