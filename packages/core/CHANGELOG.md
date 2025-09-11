@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.6.2](https://github.com/React95/React95/compare/@react95/core@9.6.1...@react95/core@9.6.2) (2025-09-11)
+
+
+### Bug Fixes
+
+* **component/titlebar:** added fix for tailwind image constrained to parent width due to preflight ([f92647b](https://github.com/React95/React95/commit/f92647b4f7acaba65254ef66e3dc69f4f79edcf9)), closes [#477](https://github.com/React95/React95/issues/477)
+
+
+
+
+
 ## [9.6.1](https://github.com/React95/React95/compare/@react95/core@9.6.0...@react95/core@9.6.1) (2025-09-02)
 
 
