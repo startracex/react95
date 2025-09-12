@@ -5,7 +5,7 @@
 [![OSAwards](https://img.shields.io/badge/osawards-Fun%20side%20project%20of%20the%20year-brightgreen.svg)](https://twitter.com/ReactAmsterdam/status/1116707269956251648)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-44-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![React95 - Publish workflow](https://github.com/React95/React95/workflows/React95%20-%20Publish%20workflow/badge.svg)](https://github.com/React95/React95/actions)
@@ -116,6 +116,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <tr>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/cheatingthemichal"><img src="https://avatars.githubusercontent.com/u/52798998?v=4?s=100" width="100px;" alt="Michal Hajlasz"/><br /><sub><b>Michal Hajlasz</b></sub></a><br /><a href="https://github.com/React95/React95/commits?author=cheatingthemichal" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/tschoerv"><img src="https://avatars.githubusercontent.com/u/55516257?v=4?s=100" width="100px;" alt="tschoerv"/><br /><sub><b>tschoerv</b></sub></a><br /><a href="#ideas-tschoerv" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jayesh-11"><img src="https://avatars.githubusercontent.com/u/100110348?v=4?s=100" width="100px;" alt="Jayesh Vyavahare"/><br /><sub><b>Jayesh Vyavahare</b></sub></a><br /><a href="#userTesting-Jayesh-11" title="User Testing">📓</a> <a href="https://github.com/React95/React95/issues?q=author%3AJayesh-11" title="Bug reports">🐛</a> <a href="https://github.com/React95/React95/commits?author=Jayesh-11" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
