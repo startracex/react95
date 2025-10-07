@@ -49,6 +49,7 @@ If you'd like to help us out with the project, we welcome contributions of all t
 - [Henrique Specian's wedding website](https://github.com/henriquespecian/casamento-nextjs)
 - [Kitty's portfolio](https://hawwokitty.github.io/my-portfolio/)
 - [Michal Hajlasz's website with Synth and Visualizer](https://michalh.vercel.app/)
+- [Xqyet's personal website](https://xqyet.dev/)
 
 ## Contributors
 
