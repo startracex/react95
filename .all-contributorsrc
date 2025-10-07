@@ -450,6 +450,15 @@
         "bug",
         "code"
       ]
+    },
+    {
+      "login": "xqyet",
+      "name": "xqyet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112708953?v=4",
+      "profile": "https://xqyet.dev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "skipCi": true,
