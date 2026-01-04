@@ -3,6 +3,105 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.6.2](https://github.com/React95/React95/compare/@react95/core@9.6.1...@react95/core@9.6.2) (2025-09-11)
+
+
+### Bug Fixes
+
+* **component/titlebar:** added fix for tailwind image constrained to parent width due to preflight ([f92647b](https://github.com/React95/React95/commit/f92647b4f7acaba65254ef66e3dc69f4f79edcf9)), closes [#477](https://github.com/React95/React95/issues/477)
+
+
+
+
+
+## [9.6.1](https://github.com/React95/React95/compare/@react95/core@9.6.0...@react95/core@9.6.1) (2025-09-02)
+
+
+### Bug Fixes
+
+* correct type definition for TitleBarBackgroundProps in ModalProps ([c14439f](https://github.com/React95/React95/commit/c14439fd027a3280fcc658bfd23d7f924a9a5244))
+* update TitleBar type to extend `as` prop ([6909883](https://github.com/React95/React95/commit/6909883c6888a928c6991b1414511f4f788b3dc6))
+
+
+
+
+
+# [9.6.0](https://github.com/React95/React95/compare/@react95/core@9.5.2...@react95/core@9.6.0) (2025-07-22)
+
+
+### Features
+
+* add `useModal` hook for managing modal events ([c632d7e](https://github.com/React95/React95/commit/c632d7e475ac4a9c08862f4171433b1ce869e75c))
+* enhance TaskBar modal management ([f143d62](https://github.com/React95/React95/commit/f143d62d6f4ac7466867f6d21f72b512fc4f92de))
+* export `ModalEvents` and `useModal` from shared events ([74ad757](https://github.com/React95/React95/commit/74ad757b3aef9940005c051d8d2f14dc0a7d7d47))
+* implement Emitter class and modal controller ([c3ff54d](https://github.com/React95/React95/commit/c3ff54d472838b031006e87806dd1dbe595135e0))
+* integrate useModal for improved modal event handling ([e5a1853](https://github.com/React95/React95/commit/e5a18531cfad37a9cfae1ff8427ae5debbbf8075))
+
+
+
+
+
+## [9.5.2](https://github.com/React95/React95/compare/@react95/core@9.5.1...@react95/core@9.5.2) (2025-06-30)
+
+**Note:** Version bump only for package @react95/core
+
+
+
+
+
+## [9.5.1](https://github.com/React95/React95/compare/@react95/core@9.5.0...@react95/core@9.5.1) (2025-06-30)
+
+**Note:** Version bump only for package @react95/core
+
+
+
+
+
+# [9.5.0](https://github.com/React95/React95/compare/@react95/core@9.4.1...@react95/core@9.5.0) (2025-06-29)
+
+
+### Features
+
+* add responsive conditions to display and box model properties ([bb858d8](https://github.com/React95/React95/commit/bb858d8663b62c08d999a2951d5b88322d806e2e))
+
+
+
+
+
+## [9.4.1](https://github.com/React95/React95/compare/@react95/core@9.4.0...@react95/core@9.4.1) (2025-06-29)
+
+**Note:** Version bump only for package @react95/core
+
+
+
+
+
+# [9.4.0](https://github.com/React95/React95/compare/@react95/core@9.3.2...@react95/core@9.4.0) (2025-06-29)
+
+
+### Bug Fixes
+
+* adjust margin and spacing for Modal and TitleBar components ([02cd091](https://github.com/React95/React95/commit/02cd091973a7816af07fe92a95194be90678bf02))
+* correct path for theme token types in package.json ([cf79fa2](https://github.com/React95/React95/commit/cf79fa2a46081b14b1bba34828907f0432800e73))
+
+
+### Features
+
+* Add new theme token files and update CSS theme files ([d1e68d1](https://github.com/React95/React95/commit/d1e68d16738b4a2d25260f734c0b8e641290b7d1))
+* add type definitions and import paths for theme token files ([616ec5f](https://github.com/React95/React95/commit/616ec5f86d359360bc2cb4318b54019a14336612))
+
+
+
+
+
+## [9.3.2](https://github.com/React95/React95/compare/@react95/core@9.3.1...@react95/core@9.3.2) (2025-06-27)
+
+**Note:** Version bump only for package @react95/core
+
+
+
+
+
 ## [9.3.1](https://github.com/React95/React95/compare/@react95/core@9.3.0...@react95/core@9.3.1) (2025-06-01)
 
 

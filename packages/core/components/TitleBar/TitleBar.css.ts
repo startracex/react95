@@ -41,7 +41,6 @@ export const option = style({
 export const titleBarBackground = recipe({
   base: {
     height: contract.space[20],
-    marginBottom: contract.space[2],
     padding: contract.space[2],
     display: 'flex',
     boxShadow: 'none',
@@ -83,4 +82,9 @@ export const title = style({
   textShadow: '0.5px 0px white, 1.5px 0px white',
   color: 'transparent',
   letterSpacing: '1px',
+});
+
+export const optionImage = style({
+  // https://tailwindcss.com/docs/preflight#images-are-constrained
+  maxWidth: 'none',
 });
